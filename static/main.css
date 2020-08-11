@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px black
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #220088;
+}
+
+body.monday { background-color: #005555; }
+body.tuesday { background-color: #555544; }
+body.wednesday{ background-color: #774477; }
+body.thursday { background-color: #333377; }
+body.friday { background-color: #773033; }
+
+#folders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.folder {
+    margin-bottom: 1rem;
+    margin: 1rem;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border: 3px solid #ABA194;
+    box-shadow: 5px 5px 10px black;
+}
+
+.folder label {
+    font-weight: 800;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    color: #8c271e;
+    margin: .5rem;
+}
+
+.folder a {
+    display: block;
+    margin: 1rem;
+    color:black;
+}
+
+.folder a img {
+    padding-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.folder a:visited {color:black;}
+.folder a:hover {color:green;}
+.folder a:active {color:black;} 

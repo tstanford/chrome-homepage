@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Tim's Start Page</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon?url=default">
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body class="{{ dayOfWeek }}">
+        <header>
+            <h1>Tim's Start Page</h1>
+        </header>
+    
+        <article id="folders">
+            {% for folder in folders %}
+            <div class="folder">
+              <label>{{ folder["name"] }}</label>
+              {% for url in folder["children"] -%}
+              <a href="{{ url['url'] }}" target="_blank"><img src="favicon?url={{ url['url'] | servername | urlencode }}"/>{{ url['name'] }}</a>
+              {% endfor %}
+            </div>
+            {% endfor %}  
+        </article>  
+    </body>
+</html>

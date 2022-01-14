@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Tim's Start Page</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon?url=default">
+        <link rel="stylesheet" href="/static/main.css">
+    </head>
+
+    <body class="{{ dayOfWeek }}">
+        <header>
+            <h1>
+                <div class="titlecase">{{ name }}</div>
+                <div class="date">{{ date }}</div>
+            </h1>
+        </header>
+   
+        <App></App>
+
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="static/app.js" type="text/babel"></script>
+
+    </body>
+</html>

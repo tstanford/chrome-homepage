@@ -60,7 +60,7 @@ class App extends React.Component{
                                 <a href={bookmark.url} target="_blank"><img src={bookmark.favicon}/>{bookmark.name}</a>
                             ))}
                         </div>
-                    ))};
+                    ))}
                 </article>
             </div>
             );

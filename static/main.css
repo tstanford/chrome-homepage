@@ -57,7 +57,6 @@ body.friday { background-color: #773033; }
 .folder a {
   display: block;
   margin: 1rem;
-  color:black;
   text-decoration: none;
 }
 
@@ -67,6 +66,7 @@ body.friday { background-color: #773033; }
     height: 16px;
 }
 
+.folder a {color:white;}
 .folder a:visited {color:white;}
 .folder a:hover {color:yellow; text-decoration: underline;}
 .folder a:active {color:white;} 

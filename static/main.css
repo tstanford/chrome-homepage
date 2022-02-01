@@ -33,14 +33,15 @@ body.friday { background-color: #773033; }
 
 .folder {
     margin-bottom: 1rem;
+    min-width: 20rem;
     margin: 1rem;
     width: 20%;
     padding: 0rem;
     /*background-color: #ffffff;*/
     background-color: rgba(32,33,36,0.96);
-    /*border-radius: 0.5rem;
-    border: 3px solid #000000;
-    box-shadow: 5px 5px 10px black;*/
+    border-radius: 1rem;
+    border: 1px solid #000000;
+    /*box-shadow: 5px 5px 10px black;*/
 }
 
 .folder label {
@@ -51,6 +52,8 @@ body.friday { background-color: #773033; }
     text-align: center;
     color: #ff5500;
     background-color: #ffffff22;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
     /*margin: .5rem;*/
 }
 
@@ -73,18 +76,15 @@ body.friday { background-color: #773033; }
 
 input#query {
   border: 0px;
-  /*
-    border: 1px solid white;
-    border-radius: 1rem;
-    */
-    width: 75%;
-    display: block;
-    margin: auto;
-    font-size: 2rem;
-    padding: 0.5rem;
-    background-color: black;
-    color: white;
-    opacity: 0.25;
+  width: 75%;
+  display: block;
+  margin: auto;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  opacity: 0.25;
+  border-radius: 0.75rem;
 }
 
 .lds-hourglass {

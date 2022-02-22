@@ -9,11 +9,15 @@ app.engine('html', cons.hogan);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/templates');
 
+var chromeProfileDirWin = os.homedir()+'/AppData/Local/Google/Chrome/User Data/Default/';
+var chromiumProfileDirLinux = os.homedir()+'/.config/chromium/Default/';
+var profileDir = process.platform === 'win32' ? chromeProfileDirWin : chromiumProfileDirLinux;
+
 var iconCache = {};
 iconCache.default = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAoklEQVR4AU3PMcqDQBQE4HeZOY12NjYeIJJ4AnObYJN0Kr9eyTqgbiZvsiD6O82w34OFMYp0OeWxSJlEUTzKtqbCFej/wecCdY42graUaLTkOOCD/rXojgikRIW/BM8HbnSjpJVTirRFMYsmhhJDgmREGRiB8f823qdvfDrdVKHpkA7UFhNqha7HugORvdngsk8yjshqFOG0ZQSqwBOIx1anfpH8zz6kV+6TAAAAAElFTkSuQmCC", 'base64');
 
 function getBookmarkData(){
-    let data = JSON.parse(fs.readFileSync(os.homedir()+"/AppData/Local/Google/Chrome/User Data/Default/Bookmarks"));
+    let data = JSON.parse(fs.readFileSync(profileDir+"Bookmarks"));
     let items = data.roots.other.children;
     return items.filter(item => item.type == "folder");
 }
@@ -75,7 +79,7 @@ app.get("/json", (req,res) => {
     res.send(data);
 });
 
-fs.copyFileSync(os.homedir()+"/AppData/Local/Google/Chrome/User Data/Default/Favicons","Favicons");
+fs.copyFileSync(profileDir+"Favicons","Favicons");
 readAllFavicons();
 app.use('/static', express.static('static'))
 app.listen(9000, () => console.log("listening on port 9000...."));

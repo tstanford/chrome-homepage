@@ -94,6 +94,7 @@ app.get("/json", (req,res) => {
 
 readAllFavicons();
 app.use('/static', express.static('static'))
+
 app.listen(9000, () => {
     console.log("Listening on port 9000");
     console.log("r  reload favicons")

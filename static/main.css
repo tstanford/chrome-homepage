@@ -41,7 +41,7 @@ body.friday { background-color: #773033; }
     background-color: rgba(32,33,36,0.96);
     border-radius: 1rem;
     border: 1px solid #000000;
-    /*box-shadow: 5px 5px 10px black;*/
+    box-shadow: 2px 2px 2px black;
 }
 
 .folder label {

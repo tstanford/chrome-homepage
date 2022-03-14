@@ -49,12 +49,14 @@ class App extends React.Component{
                 <article id="folders">
                     {filteredFolders.filter(
                             f => query == "" || 
-                            f.bookmarks.filter(b => b.name.toLowerCase().includes(query.toLowerCase())).length > 0
+                            f.bookmarks.filter(b => b.name.toLowerCase().includes(query.toLowerCase())).length > 0 ||
+                            (query.startsWith("g=") && query.length > 2 && f.name.toLowerCase().startsWith(query.replace("g=","").toLowerCase()))
                         ).map(folder => (
                         <div class="folder">
                             <label>{folder.name}</label>
                             {folder.bookmarks.filter(
                                     b => query == "" || 
+                                    query.startsWith("g=") ||
                                     b.name.toLowerCase().includes(query.toLowerCase())
                                 ).map(bookmark => (
                                 <a href={bookmark.url} target="_blank"><img src={bookmark.favicon}/>{bookmark.name}</a>

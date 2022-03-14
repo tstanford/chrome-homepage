@@ -15,7 +15,17 @@ iconCache.default = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAA
 function getBookmarkData(){
     let data = JSON.parse(fs.readFileSync(os.homedir()+"/AppData/Local/Google/Chrome/User Data/Default/Bookmarks"));
     let items = data.roots.other.children;
-    return items.filter(item => item.type == "folder");
+    let folders = items.filter(item => item.type == "folder");
+    let urls = items.filter(item => item.type == "url");
+
+    if(urls.length>0){
+        folders.push({
+            name:"Uncategorised",
+            children: urls
+        });
+    }
+
+    return folders;
 }
 
 function readAllFavicons(){
@@ -60,7 +70,7 @@ app.get("/json", (req,res) => {
             bookmarks: []
         };
 
-        folder.children.forEach(child => {
+        folder.children.filter(c => c.type == 'url').forEach(child => {
             let favicon = child.url in iconCache ? iconCache[child.url]: iconCache.default;
             group.bookmarks.push({
                 name: child.name,
@@ -79,3 +89,5 @@ fs.copyFileSync(os.homedir()+"/AppData/Local/Google/Chrome/User Data/Default/Fav
 readAllFavicons();
 app.use('/static', express.static('static'))
 app.listen(9000, () => console.log("listening on port 9000...."));
+
+console.log("hello");

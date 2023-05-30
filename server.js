@@ -96,22 +96,4 @@ readAllFavicons();
 app.use('/static', express.static('static'))
 
 app.listen(9000, () => {
-    console.log("Listening on port 9000");
-    console.log("r  reload favicons")
 });
-
-var stdin = process.openStdin();
-stdin.setRawMode( true );
-stdin.resume();
-stdin.setEncoding( 'utf8' );
-stdin.on('data', function(key) {
-    if ( key === '\u0003' ) {
-        process.exit();
-    }
-
-    if( key === 'r' ){
-        console.log("reloading favicons");
-        readAllFavicons();
-    }    
-});
-

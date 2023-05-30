@@ -1,0 +1,4 @@
+2023-05-30 11:39:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-05-30 11:39:30 - Started 4600
+2023-05-30 11:39:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-05-30 11:39:51 - Started 8532

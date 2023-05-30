@@ -1,0 +1,132 @@
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, copyfile 'C:\Windows\system32\config\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons' -> 'Favicons'
+    at Object.copyFileSync (node:fs:2894:3)
+    at readAllFavicons (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:35:8)
+    at Object.<anonymous> (C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js:95:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  errno: -4058,
+  syscall: 'copyfile',
+  code: 'ENOENT',
+  path: 'C:\\Windows\\system32\\config\\systemprofile/AppData/Local/Google/Chrome/User Data/Default/Favicons',
+  dest: 'Favicons'
+}
+
+Node.js v18.16.0

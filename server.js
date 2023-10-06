@@ -9,7 +9,8 @@ app.engine('html', cons.hogan);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/templates');
 
-var chromeProfileDirWin = os.homedir()+'/AppData/Local/Google/Chrome/User Data/Default/';
+var chromeProfileDirWin = 'c:/users/tim.stanford/AppData/Local/Google/Chrome/v_mniubtg/Default/';
+//C:\Users\tim.stanford\AppData\Local\Google\Chrome\v_mniubtg\Default
 var chromiumProfileDirLinux = os.homedir()+'/.config/chromium/Default/';
 var profileDir = process.platform === 'win32' ? chromeProfileDirWin : chromiumProfileDirLinux;
 
@@ -95,5 +96,5 @@ app.get("/json", (req,res) => {
 readAllFavicons();
 app.use('/static', express.static('static'))
 
-app.listen(9000, () => {
+app.listen(80, () => {
 });

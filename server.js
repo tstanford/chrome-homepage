@@ -9,11 +9,7 @@ app.engine('html', cons.hogan);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/templates');
 
-var chromeProfileDirWin = 'c:/users/tim.stanford/AppData/Local/Google/Chrome/v_mniubtg/Default/';
-//C:\Users\tim.stanford\AppData\Local\Google\Chrome\v_mniubtg\Default
-var chromiumProfileDirLinux = os.homedir()+'/.config/chromium/Default/';
-var profileDir = process.platform === 'win32' ? chromeProfileDirWin : chromiumProfileDirLinux;
-
+var profileDir = '/chromeprofile/';
 var iconCache = {};
 
 function getBookmarkData(){
@@ -33,11 +29,11 @@ function getBookmarkData(){
 }
 
 function readAllFavicons(){
-    fs.copyFileSync(profileDir+"Favicons","Favicons");
+    fs.copyFileSync(profileDir+"Favicons","/tmp/Favicons");
     iconCache = {};
     iconCache.default = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAoklEQVR4AU3PMcqDQBQE4HeZOY12NjYeIJJ4AnObYJN0Kr9eyTqgbiZvsiD6O82w34OFMYp0OeWxSJlEUTzKtqbCFej/wecCdY42graUaLTkOOCD/rXojgikRIW/BM8HbnSjpJVTirRFMYsmhhJDgmREGRiB8f823qdvfDrdVKHpkA7UFhNqha7HugORvdngsk8yjshqFOG0ZQSqwBOIx1anfpH8zz6kV+6TAAAAAElFTkSuQmCC", 'base64');
 
-    let db = new sqlite3.Database("Favicons", sqlite3.OPEN_READONLY);
+    let db = new sqlite3.Database("/tmp/Favicons", sqlite3.OPEN_READONLY);
 
     db.serialize(() => {
         db.each("select m.page_url, b.image_data from favicon_bitmaps as b join icon_mapping as m on m.icon_id = b.icon_id where b.width=16;", (err,row) =>{
@@ -96,5 +92,5 @@ app.get("/json", (req,res) => {
 readAllFavicons();
 app.use('/static', express.static('static'))
 
-app.listen(80, () => {
+app.listen(8080, () => {
 });

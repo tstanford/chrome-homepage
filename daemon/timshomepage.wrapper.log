@@ -2,3 +2,2077 @@
 2023-05-30 11:39:30 - Started 4600
 2023-05-30 11:39:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2023-05-30 11:39:51 - Started 8532
+2023-05-30 11:44:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-05-30 11:44:23 - Started 14060
+2023-06-01 16:41:11 - Stopping timshomepage.exe
+2023-06-01 16:41:11 - ProcessKill 14060
+2023-06-01 16:41:11 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-01 16:41:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-01 16:41:58 - Started 7748
+2023-06-01 16:43:17 - Stopping timshomepage.exe
+2023-06-01 16:43:17 - ProcessKill 7748
+2023-06-01 16:43:18 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-02 08:13:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-02 08:13:45 - Started 6960
+2023-06-02 08:51:42 - Stopping timshomepage.exe
+2023-06-02 08:51:42 - ProcessKill 6960
+2023-06-02 08:51:42 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-02 08:53:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-02 08:53:40 - Started 5968
+2023-06-02 11:33:56 - Stopping timshomepage.exe
+2023-06-02 11:33:56 - ProcessKill 5968
+2023-06-02 11:33:56 - Found child process: 6028 Name: conhost.exe
+2023-06-02 11:33:56 - Found child process: 1492 Name: node.exe
+2023-06-02 11:33:56 - Stopping process 6028
+2023-06-02 11:33:56 - Send SIGINT 6028
+2023-06-02 11:33:56 - SIGINT to 6028 failed - Killing as fallback
+2023-06-02 11:33:56 - Stopping process 1492
+2023-06-02 11:33:56 - Send SIGINT 1492
+2023-06-02 11:33:56 - SIGINT to 1492 failed - Killing as fallback
+2023-06-02 11:33:56 - Stopping process 5968
+2023-06-02 11:33:56 - Send SIGINT 5968
+2023-06-02 11:33:56 - SIGINT to 5968 failed - Killing as fallback
+2023-06-02 11:33:56 - Finished timshomepage.exe
+2023-06-02 11:33:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-02 11:33:59 - Started 15084
+2023-06-05 07:54:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-05 07:54:17 - Started 6620
+2023-06-05 16:37:30 - Stopping timshomepage.exe
+2023-06-05 16:37:30 - ProcessKill 6620
+2023-06-05 16:37:30 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-06 07:54:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-06 07:54:17 - Started 6876
+2023-06-06 16:13:50 - Stopping timshomepage.exe
+2023-06-06 16:13:50 - ProcessKill 6876
+2023-06-06 16:13:50 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-07 08:25:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-07 08:25:25 - Started 6024
+2023-06-07 16:20:01 - Stopping timshomepage.exe
+2023-06-07 16:20:01 - ProcessKill 6024
+2023-06-07 16:20:01 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-08 08:27:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-08 08:27:18 - Started 5656
+2023-06-09 15:48:17 - Stopping timshomepage.exe
+2023-06-09 15:48:17 - ProcessKill 5656
+2023-06-09 15:48:17 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-12 08:10:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-12 08:10:36 - Started 6148
+2023-06-12 15:53:47 - Stopping timshomepage.exe
+2023-06-12 15:53:47 - ProcessKill 6148
+2023-06-12 15:53:47 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-12 16:25:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-12 16:25:10 - Started 6816
+2023-06-12 16:36:32 - Stopping timshomepage.exe
+2023-06-12 16:36:32 - ProcessKill 6816
+2023-06-12 16:36:32 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-13 08:23:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-13 08:23:21 - Started 6052
+2023-06-13 16:17:18 - Stopping timshomepage.exe
+2023-06-13 16:17:18 - ProcessKill 6052
+2023-06-13 16:17:18 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-14 08:35:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-14 08:35:47 - Started 5656
+2023-06-15 16:22:03 - Stopping timshomepage.exe
+2023-06-15 16:22:03 - ProcessKill 5656
+2023-06-15 16:22:04 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-16 08:17:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-16 08:17:06 - Started 6016
+2023-06-19 16:08:12 - Stopping timshomepage.exe
+2023-06-19 16:08:12 - ProcessKill 6016
+2023-06-19 16:08:12 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-20 07:45:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-20 07:45:26 - Started 7500
+2023-06-20 16:27:44 - Stopping timshomepage.exe
+2023-06-20 16:27:44 - ProcessKill 7500
+2023-06-20 16:27:44 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-21 08:18:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-21 08:18:21 - Started 6188
+2023-06-21 16:27:44 - Stopping timshomepage.exe
+2023-06-21 16:27:44 - ProcessKill 6188
+2023-06-21 16:27:44 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-22 08:36:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-22 08:36:10 - Started 6720
+2023-06-22 16:20:36 - Stopping timshomepage.exe
+2023-06-22 16:20:36 - ProcessKill 6720
+2023-06-22 16:20:36 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-23 08:22:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-23 08:22:57 - Started 6944
+2023-06-26 08:15:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-26 08:15:29 - Started 6316
+2023-06-26 16:36:16 - Stopping timshomepage.exe
+2023-06-26 16:36:16 - ProcessKill 6316
+2023-06-26 16:36:16 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-27 07:55:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-27 07:55:04 - Started 6436
+2023-06-27 16:17:21 - Stopping timshomepage.exe
+2023-06-27 16:17:21 - ProcessKill 6436
+2023-06-27 16:17:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-28 07:51:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-28 07:51:44 - Started 7004
+2023-06-28 16:14:15 - Stopping timshomepage.exe
+2023-06-28 16:14:15 - ProcessKill 7004
+2023-06-28 16:14:16 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-29 07:52:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-29 07:52:01 - Started 7764
+2023-06-29 09:36:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-29 09:36:47 - Started 20184
+2023-06-29 09:37:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-29 09:37:08 - Started 15500
+2023-06-29 09:49:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-29 09:49:09 - Started 17140
+2023-06-29 16:10:45 - Stopping timshomepage.exe
+2023-06-29 16:10:45 - ProcessKill 17140
+2023-06-29 16:10:45 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-30 07:58:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-30 07:58:27 - Started 5860
+2023-06-30 16:06:43 - Stopping timshomepage.exe
+2023-06-30 16:06:43 - ProcessKill 5860
+2023-06-30 16:06:43 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-06-30 16:07:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-06-30 16:07:40 - Started 6920
+2023-06-30 16:14:24 - Stopping timshomepage.exe
+2023-06-30 16:14:24 - ProcessKill 6920
+2023-06-30 16:14:24 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-03 07:55:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-03 07:55:57 - Started 6580
+2023-07-03 16:42:55 - Stopping timshomepage.exe
+2023-07-03 16:42:55 - ProcessKill 6580
+2023-07-03 16:42:56 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-04 07:51:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-04 07:51:04 - Started 7188
+2023-07-24 11:39:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-24 11:39:18 - Started 6472
+2023-07-24 16:21:52 - Stopping timshomepage.exe
+2023-07-24 16:21:52 - ProcessKill 6472
+2023-07-24 16:21:52 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-25 08:21:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-25 08:21:38 - Started 5752
+2023-07-25 16:30:39 - Stopping timshomepage.exe
+2023-07-25 16:30:39 - ProcessKill 5752
+2023-07-25 16:30:40 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-26 08:20:34 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-26 08:20:34 - Started 6344
+2023-07-26 16:18:13 - Stopping timshomepage.exe
+2023-07-26 16:18:13 - ProcessKill 6344
+2023-07-26 16:18:13 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-27 08:20:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-27 08:20:36 - Started 6260
+2023-07-27 16:24:06 - Stopping timshomepage.exe
+2023-07-27 16:24:06 - ProcessKill 6260
+2023-07-27 16:24:06 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-28 08:13:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-28 08:13:38 - Started 6176
+2023-07-28 16:19:29 - Stopping timshomepage.exe
+2023-07-28 16:19:29 - ProcessKill 6176
+2023-07-28 16:19:29 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-07-31 08:33:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-07-31 08:33:40 - Started 6116
+2023-08-01 09:17:10 - Stopping timshomepage.exe
+2023-08-01 09:17:10 - ProcessKill 6116
+2023-08-01 09:17:10 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-01 09:21:14 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-01 09:21:14 - Started 6256
+2023-08-03 16:10:22 - Stopping timshomepage.exe
+2023-08-03 16:10:22 - ProcessKill 6256
+2023-08-03 16:10:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-04 08:16:07 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-04 08:16:07 - Started 6472
+2023-08-04 16:12:00 - Stopping timshomepage.exe
+2023-08-04 16:12:00 - ProcessKill 6472
+2023-08-04 16:12:00 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-07 07:22:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-07 07:22:50 - Started 6336
+2023-08-07 17:30:15 - Stopping timshomepage.exe
+2023-08-07 17:30:15 - ProcessKill 6336
+2023-08-07 17:30:15 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-08 07:47:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-08 07:47:31 - Started 6432
+2023-08-08 08:52:21 - Stopping timshomepage.exe
+2023-08-08 08:52:21 - ProcessKill 6432
+2023-08-08 08:52:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-08 08:53:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-08 08:53:01 - Started 6748
+2023-08-08 16:10:13 - Stopping timshomepage.exe
+2023-08-08 16:10:13 - ProcessKill 6748
+2023-08-08 16:10:13 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-09 08:06:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-09 08:06:54 - Started 6644
+2023-08-10 13:36:28 - Stopping timshomepage.exe
+2023-08-10 13:36:28 - ProcessKill 6644
+2023-08-10 13:36:28 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-10 13:43:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-10 13:43:05 - Started 6408
+2023-08-10 16:17:03 - Stopping timshomepage.exe
+2023-08-10 16:17:03 - ProcessKill 6408
+2023-08-10 16:17:03 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-11 08:04:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-11 08:04:31 - Started 6312
+2023-08-11 09:14:32 - Stopping timshomepage.exe
+2023-08-11 09:14:32 - ProcessKill 6312
+2023-08-11 09:14:32 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-11 09:15:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-11 09:15:21 - Started 6612
+2023-08-14 08:36:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-14 08:36:51 - Started 6236
+2023-08-14 16:22:02 - Stopping timshomepage.exe
+2023-08-14 16:22:02 - ProcessKill 6236
+2023-08-14 16:22:02 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-15 07:59:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-15 07:59:26 - Started 6744
+2023-08-15 16:28:05 - Stopping timshomepage.exe
+2023-08-15 16:28:05 - ProcessKill 6744
+2023-08-15 16:28:05 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-16 07:52:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-16 07:52:31 - Started 6572
+2023-08-16 16:31:51 - Stopping timshomepage.exe
+2023-08-16 16:31:51 - ProcessKill 6572
+2023-08-16 16:31:51 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-17 08:17:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-17 08:17:52 - Started 6688
+2023-08-18 16:10:14 - Stopping timshomepage.exe
+2023-08-18 16:10:14 - ProcessKill 6688
+2023-08-18 16:10:14 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-21 07:57:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-21 07:57:26 - Started 6172
+2023-08-21 15:59:21 - Stopping timshomepage.exe
+2023-08-21 15:59:21 - ProcessKill 6172
+2023-08-21 15:59:21 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-22 06:32:42 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-22 06:32:42 - Started 6336
+2023-08-22 16:09:31 - Stopping timshomepage.exe
+2023-08-22 16:09:31 - ProcessKill 6336
+2023-08-22 16:09:31 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-23 07:46:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-23 07:46:10 - Started 6152
+2023-08-23 16:01:30 - Stopping timshomepage.exe
+2023-08-23 16:01:30 - ProcessKill 6152
+2023-08-23 16:01:30 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-24 08:12:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-24 08:12:39 - Started 6264
+2023-08-24 15:58:11 - Stopping timshomepage.exe
+2023-08-24 15:58:11 - ProcessKill 6264
+2023-08-24 15:58:11 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-25 07:57:15 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-25 07:57:15 - Started 6304
+2023-08-25 15:52:07 - Stopping timshomepage.exe
+2023-08-25 15:52:07 - ProcessKill 6304
+2023-08-25 15:52:07 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-25 15:52:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-25 15:52:57 - Started 7592
+2023-08-25 15:58:55 - Stopping timshomepage.exe
+2023-08-25 15:58:55 - ProcessKill 7592
+2023-08-25 15:58:55 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-28 07:49:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-28 07:49:02 - Started 6284
+2023-08-28 16:04:40 - Stopping timshomepage.exe
+2023-08-28 16:04:40 - ProcessKill 6284
+2023-08-28 16:04:40 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-29 08:16:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-29 08:16:58 - Started 6636
+2023-08-29 16:00:52 - Stopping timshomepage.exe
+2023-08-29 16:00:52 - ProcessKill 6636
+2023-08-29 16:00:52 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-30 07:50:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-30 07:50:04 - Started 7152
+2023-08-30 16:03:15 - Stopping timshomepage.exe
+2023-08-30 16:03:15 - ProcessKill 7152
+2023-08-30 16:03:15 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-08-31 08:22:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-08-31 08:22:02 - Started 4384
+2023-09-01 14:45:27 - Stopping timshomepage.exe
+2023-09-01 14:45:27 - ProcessKill 4384
+2023-09-01 14:45:27 - Found child process: 5920 Name: conhost.exe
+2023-09-01 14:45:27 - Found child process: 6944 Name: node.exe
+2023-09-01 14:45:28 - Stopping process 5920
+2023-09-01 14:45:28 - Send SIGINT 5920
+2023-09-01 14:45:28 - SIGINT to 5920 failed - Killing as fallback
+2023-09-01 14:45:28 - Stopping process 6944
+2023-09-01 14:45:28 - Send SIGINT 6944
+2023-09-01 14:45:28 - SIGINT to 6944 failed - Killing as fallback
+2023-09-01 14:45:28 - Stopping process 4384
+2023-09-01 14:45:28 - Send SIGINT 4384
+2023-09-01 14:45:28 - SIGINT to 4384 failed - Killing as fallback
+2023-09-01 14:45:28 - Finished timshomepage.exe
+2023-09-01 14:45:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-01 14:45:30 - Started 15240
+2023-09-01 16:01:50 - Stopping timshomepage.exe
+2023-09-01 16:01:50 - ProcessKill 15240
+2023-09-01 16:01:51 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-04 07:41:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-04 07:41:59 - Started 6744
+2023-09-04 16:01:09 - Stopping timshomepage.exe
+2023-09-04 16:01:09 - ProcessKill 6744
+2023-09-04 16:01:09 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-05 07:43:42 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-05 07:43:42 - Started 6244
+2023-09-05 16:02:26 - Stopping timshomepage.exe
+2023-09-05 16:02:26 - ProcessKill 6244
+2023-09-05 16:02:26 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-05 16:32:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-05 16:32:20 - Started 6440
+2023-09-05 16:34:14 - Stopping timshomepage.exe
+2023-09-05 16:34:14 - ProcessKill 6440
+2023-09-05 16:34:14 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-06 08:31:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-06 08:31:48 - Started 6612
+2023-09-06 16:21:39 - Stopping timshomepage.exe
+2023-09-06 16:21:39 - ProcessKill 6612
+2023-09-06 16:21:39 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-07 08:07:37 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-07 08:07:37 - Started 6284
+2023-09-07 15:58:56 - Stopping timshomepage.exe
+2023-09-07 15:58:56 - ProcessKill 6284
+2023-09-07 15:58:56 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-08 08:03:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-08 08:03:18 - Started 6800
+2023-09-08 15:38:52 - Stopping timshomepage.exe
+2023-09-08 15:38:52 - ProcessKill 6800
+2023-09-08 15:38:52 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-08 15:39:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-08 15:39:43 - Started 6864
+2023-09-08 16:02:21 - Stopping timshomepage.exe
+2023-09-08 16:02:21 - ProcessKill 6864
+2023-09-08 16:02:21 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-11 08:21:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-11 08:21:45 - Started 6388
+2023-09-11 16:01:24 - Stopping timshomepage.exe
+2023-09-11 16:01:24 - ProcessKill 6388
+2023-09-11 16:01:24 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-12 07:13:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-12 07:13:50 - Started 6432
+2023-09-12 15:59:55 - Stopping timshomepage.exe
+2023-09-12 15:59:55 - ProcessKill 6432
+2023-09-12 15:59:55 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-13 08:15:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-13 08:15:23 - Started 6544
+2023-09-13 16:01:48 - Stopping timshomepage.exe
+2023-09-13 16:01:48 - ProcessKill 6544
+2023-09-13 16:01:48 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-14 08:22:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-14 08:22:03 - Started 6408
+2023-09-14 16:06:24 - Stopping timshomepage.exe
+2023-09-14 16:06:24 - ProcessKill 6408
+2023-09-14 16:06:24 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-15 07:08:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-15 07:08:03 - Started 6824
+2023-09-15 15:17:10 - Stopping timshomepage.exe
+2023-09-15 15:17:10 - ProcessKill 6824
+2023-09-15 15:17:10 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-18 08:34:14 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-18 08:34:14 - Started 6436
+2023-09-18 09:53:27 - Stopping timshomepage.exe
+2023-09-18 09:53:27 - ProcessKill 6436
+2023-09-18 09:53:27 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-18 09:54:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-18 09:54:18 - Started 6524
+2023-09-20 16:02:26 - Stopping timshomepage.exe
+2023-09-20 16:02:26 - ProcessKill 6524
+2023-09-20 16:02:26 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-21 08:09:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-21 08:09:17 - Started 6168
+2023-09-21 15:59:38 - Stopping timshomepage.exe
+2023-09-21 15:59:38 - ProcessKill 6168
+2023-09-21 15:59:38 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-21 17:05:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-21 17:05:38 - Started 5204
+2023-09-21 17:08:09 - Stopping timshomepage.exe
+2023-09-21 17:08:09 - ProcessKill 5204
+2023-09-21 17:08:09 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-22 07:42:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-22 07:42:01 - Started 6896
+2023-09-25 08:13:19 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-25 08:13:19 - Started 6260
+2023-09-26 16:45:49 - Stopping timshomepage.exe
+2023-09-26 16:45:49 - ProcessKill 6260
+2023-09-26 16:45:49 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-27 07:50:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-27 07:50:17 - Started 6344
+2023-09-27 16:02:21 - Stopping timshomepage.exe
+2023-09-27 16:02:21 - ProcessKill 6344
+2023-09-27 16:02:21 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-28 08:29:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-28 08:29:25 - Started 6272
+2023-09-28 11:21:53 - Stopping timshomepage.exe
+2023-09-28 11:21:53 - ProcessKill 6272
+2023-09-28 11:21:53 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-09-29 09:12:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-09-29 09:12:22 - Started 6236
+2023-09-29 17:33:00 - Stopping timshomepage.exe
+2023-09-29 17:33:00 - ProcessKill 6236
+2023-09-29 17:33:00 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-02 08:08:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-02 08:08:26 - Started 6524
+2023-10-03 16:47:10 - Stopping timshomepage.exe
+2023-10-03 16:47:10 - ProcessKill 6524
+2023-10-03 16:47:10 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-04 08:29:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-04 08:29:02 - Started 6272
+2023-10-04 16:23:20 - Stopping timshomepage.exe
+2023-10-04 16:23:20 - ProcessKill 6272
+2023-10-04 16:23:20 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-05 07:53:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-05 07:53:04 - Started 7044
+2023-10-05 16:29:56 - Stopping timshomepage.exe
+2023-10-05 16:29:56 - ProcessKill 7044
+2023-10-05 16:29:56 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-06 08:20:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-06 08:20:02 - Started 7004
+2023-10-06 16:25:18 - Stopping timshomepage.exe
+2023-10-06 16:25:18 - ProcessKill 7004
+2023-10-06 16:25:19 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-06 16:25:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-06 16:25:52 - Started 6356
+2023-10-11 07:55:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-11 07:55:17 - Started 7024
+2023-10-11 16:23:41 - Stopping timshomepage.exe
+2023-10-11 16:23:41 - ProcessKill 7024
+2023-10-11 16:23:41 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-12 08:08:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-12 08:08:05 - Started 6724
+2023-10-12 16:27:05 - Stopping timshomepage.exe
+2023-10-12 16:27:05 - ProcessKill 6724
+2023-10-12 16:27:05 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-13 07:42:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-13 07:42:39 - Started 6748
+2023-10-23 08:10:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-23 08:10:59 - Started 6644
+2023-10-23 08:28:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-23 08:28:44 - Started 6676
+2023-10-23 16:59:14 - Stopping timshomepage.exe
+2023-10-23 16:59:14 - ProcessKill 6676
+2023-10-23 16:59:14 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-24 07:52:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-24 07:52:52 - Started 6256
+2023-10-24 16:52:06 - Stopping timshomepage.exe
+2023-10-24 16:52:06 - ProcessKill 6256
+2023-10-24 16:52:06 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-25 08:01:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-25 08:01:55 - Started 6532
+2023-10-25 17:01:56 - Stopping timshomepage.exe
+2023-10-25 17:01:56 - ProcessKill 6532
+2023-10-25 17:01:56 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-26 08:09:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-26 08:09:38 - Started 7140
+2023-10-26 15:55:01 - Stopping timshomepage.exe
+2023-10-26 15:55:01 - ProcessKill 7140
+2023-10-26 15:55:01 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-27 08:18:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-27 08:18:54 - Started 6348
+2023-10-27 08:33:02 - Stopping timshomepage.exe
+2023-10-27 08:33:02 - ProcessKill 6348
+2023-10-27 08:33:02 - Found child process: 6412 Name: conhost.exe
+2023-10-27 08:33:02 - Found child process: 7604 Name: node.exe
+2023-10-27 08:33:02 - Stopping process 6412
+2023-10-27 08:33:02 - Send SIGINT 6412
+2023-10-27 08:33:02 - SIGINT to 6412 failed - Killing as fallback
+2023-10-27 08:33:02 - Stopping process 7604
+2023-10-27 08:33:02 - Send SIGINT 7604
+2023-10-27 08:33:02 - SIGINT to 7604 failed - Killing as fallback
+2023-10-27 08:33:02 - Stopping process 6348
+2023-10-27 08:33:02 - Send SIGINT 6348
+2023-10-27 08:33:02 - SIGINT to 6348 failed - Killing as fallback
+2023-10-27 08:33:02 - Finished timshomepage.exe
+2023-10-27 08:33:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-27 08:33:05 - Started 14388
+2023-10-30 07:56:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-30 07:56:31 - Started 6756
+2023-10-30 16:19:01 - Stopping timshomepage.exe
+2023-10-30 16:19:01 - ProcessKill 6756
+2023-10-30 16:19:01 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-10-31 09:05:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-10-31 09:05:39 - Started 6232
+2023-10-31 15:59:08 - Stopping timshomepage.exe
+2023-10-31 15:59:08 - ProcessKill 6232
+2023-10-31 15:59:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-01 08:22:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-01 08:22:54 - Started 6596
+2023-11-01 16:28:38 - Stopping timshomepage.exe
+2023-11-01 16:28:38 - ProcessKill 6596
+2023-11-01 16:28:38 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-02 07:49:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-02 07:49:44 - Started 6888
+2023-11-03 17:42:45 - Stopping timshomepage.exe
+2023-11-03 17:42:45 - ProcessKill 6888
+2023-11-03 17:42:46 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-06 07:57:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-06 07:57:38 - Started 6932
+2023-11-06 16:24:45 - Stopping timshomepage.exe
+2023-11-06 16:24:45 - ProcessKill 6932
+2023-11-06 16:24:45 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-07 08:13:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-07 08:13:16 - Started 6620
+2023-11-07 16:00:08 - Stopping timshomepage.exe
+2023-11-07 16:00:08 - ProcessKill 6620
+2023-11-07 16:00:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-08 08:19:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-08 08:19:57 - Started 6708
+2023-11-14 08:03:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-14 08:03:56 - Started 6272
+2023-11-14 16:50:49 - Stopping timshomepage.exe
+2023-11-14 16:50:49 - ProcessKill 6272
+2023-11-14 16:50:49 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-15 08:25:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-15 08:25:20 - Started 6620
+2023-11-16 16:50:40 - Stopping timshomepage.exe
+2023-11-16 16:50:40 - ProcessKill 6620
+2023-11-16 16:50:40 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-17 07:43:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-17 07:43:27 - Started 6336
+2023-11-17 16:18:26 - Stopping timshomepage.exe
+2023-11-17 16:18:26 - ProcessKill 6336
+2023-11-17 16:18:26 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-20 08:09:35 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-20 08:09:35 - Started 7144
+2023-11-20 16:18:45 - Stopping timshomepage.exe
+2023-11-20 16:18:45 - ProcessKill 7144
+2023-11-20 16:18:45 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-21 07:42:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-21 07:42:50 - Started 6716
+2023-11-21 16:09:30 - Stopping timshomepage.exe
+2023-11-21 16:09:30 - ProcessKill 6716
+2023-11-21 16:09:30 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-22 08:03:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-22 08:03:29 - Started 7328
+2023-11-22 16:20:02 - Stopping timshomepage.exe
+2023-11-22 16:20:02 - ProcessKill 7328
+2023-11-22 16:20:02 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-23 07:51:53 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-23 07:51:53 - Started 6840
+2023-11-23 16:46:01 - Stopping timshomepage.exe
+2023-11-23 16:46:01 - ProcessKill 6840
+2023-11-23 16:46:01 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-24 07:52:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-24 07:52:27 - Started 6244
+2023-11-28 07:52:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-28 07:52:38 - Started 6880
+2023-11-28 16:22:41 - Stopping timshomepage.exe
+2023-11-28 16:22:41 - ProcessKill 6880
+2023-11-28 16:22:41 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-29 08:26:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-29 08:26:21 - Started 6712
+2023-11-29 16:34:42 - Stopping timshomepage.exe
+2023-11-29 16:34:42 - ProcessKill 6712
+2023-11-29 16:34:42 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-30 08:06:53 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-30 08:06:53 - Started 6692
+2023-12-01 16:23:24 - Stopping timshomepage.exe
+2023-12-01 16:23:24 - ProcessKill 6692
+2023-12-01 16:23:24 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-04 08:13:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-04 08:13:16 - Started 6756
+2023-12-04 15:58:57 - Stopping timshomepage.exe
+2023-12-04 15:58:57 - ProcessKill 6756
+2023-12-04 15:58:57 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-05 07:55:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-05 07:55:41 - Started 6448
+2023-12-06 16:21:43 - Stopping timshomepage.exe
+2023-12-06 16:21:43 - ProcessKill 6448
+2023-12-06 16:21:43 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-07 08:21:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-07 08:21:48 - Started 6840
+2023-12-07 13:24:52 - Stopping timshomepage.exe
+2023-12-07 13:24:52 - ProcessKill 6840
+2023-12-07 13:24:52 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-07 13:30:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-07 13:30:09 - Started 8072
+2023-12-08 16:24:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-08 16:24:56 - Started 6996
+2023-12-08 16:25:30 - Stopping timshomepage.exe
+2023-12-08 16:25:30 - ProcessKill 6996
+2023-12-08 16:25:30 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-11 08:04:07 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-11 08:04:07 - Started 7756
+2023-12-11 16:01:00 - Stopping timshomepage.exe
+2023-12-11 16:01:00 - ProcessKill 7756
+2023-12-11 16:01:00 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-12 08:32:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-12 08:32:17 - Started 8420
+2023-12-13 16:18:16 - Stopping timshomepage.exe
+2023-12-13 16:18:16 - ProcessKill 8420
+2023-12-13 16:18:16 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-14 08:04:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-14 08:04:59 - Started 7944
+2023-12-14 16:08:50 - Stopping timshomepage.exe
+2023-12-14 16:08:51 - ProcessKill 7944
+2023-12-14 16:08:51 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-15 09:04:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-15 09:04:47 - Started 7680
+2023-12-15 16:16:28 - Stopping timshomepage.exe
+2023-12-15 16:16:28 - ProcessKill 7680
+2023-12-15 16:16:28 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-18 08:11:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-18 08:11:45 - Started 7660
+2023-12-19 17:01:08 - Stopping timshomepage.exe
+2023-12-19 17:01:08 - ProcessKill 7660
+2023-12-19 17:01:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-20 08:15:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-20 08:15:26 - Started 7836
+2023-12-20 16:32:58 - Stopping timshomepage.exe
+2023-12-20 16:32:59 - ProcessKill 7836
+2023-12-20 16:32:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-21 08:16:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-21 08:16:11 - Started 7512
+2023-12-21 12:14:06 - Stopping timshomepage.exe
+2023-12-21 12:14:06 - ProcessKill 7512
+2023-12-21 12:14:06 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-21 12:15:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-21 12:15:03 - Started 8476
+2023-12-21 12:18:23 - Stopping timshomepage.exe
+2023-12-21 12:18:23 - ProcessKill 8476
+2023-12-21 12:18:23 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-03 07:44:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-03 07:44:27 - Started 7772
+2024-01-03 08:19:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-03 08:19:32 - Started 10164
+2024-01-03 09:37:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-03 09:37:39 - Started 7752
+2024-01-03 16:00:26 - Stopping timshomepage.exe
+2024-01-03 16:00:26 - ProcessKill 7752
+2024-01-03 16:00:26 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-04 07:58:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-04 07:58:57 - Started 7756
+2024-01-04 15:59:56 - Stopping timshomepage.exe
+2024-01-04 15:59:56 - ProcessKill 7756
+2024-01-04 15:59:56 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-05 07:54:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-05 07:54:48 - Started 7280
+2024-01-05 15:58:12 - Stopping timshomepage.exe
+2024-01-05 15:58:12 - ProcessKill 7280
+2024-01-05 15:58:12 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-08 07:52:46 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-08 07:52:46 - Started 7460
+2024-01-09 16:10:30 - Stopping timshomepage.exe
+2024-01-09 16:10:30 - ProcessKill 7460
+2024-01-09 16:10:30 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-10 08:21:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-10 08:21:33 - Started 7892
+2024-01-10 16:02:00 - Stopping timshomepage.exe
+2024-01-10 16:02:00 - ProcessKill 7892
+2024-01-10 16:02:01 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-11 07:53:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-11 07:53:29 - Started 7256
+2024-01-11 15:58:58 - Stopping timshomepage.exe
+2024-01-11 15:58:58 - ProcessKill 7256
+2024-01-11 15:58:58 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-12 07:45:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-12 07:45:54 - Started 7300
+2024-01-12 16:04:13 - Stopping timshomepage.exe
+2024-01-12 16:04:13 - ProcessKill 7300
+2024-01-12 16:04:14 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-15 08:14:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-15 08:14:13 - Started 7408
+2024-01-17 16:04:30 - Stopping timshomepage.exe
+2024-01-17 16:04:30 - ProcessKill 7408
+2024-01-17 16:04:31 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-18 08:17:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-18 08:17:06 - Started 7868
+2024-01-18 14:07:12 - Stopping timshomepage.exe
+2024-01-18 14:07:12 - ProcessKill 7868
+2024-01-18 14:07:12 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-19 08:31:53 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-19 08:31:53 - Started 8488
+2024-01-22 07:44:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-22 07:44:45 - Started 7588
+2024-01-22 16:08:25 - Stopping timshomepage.exe
+2024-01-22 16:08:25 - ProcessKill 7588
+2024-01-22 16:08:25 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-23 08:28:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-23 08:28:29 - Started 8232
+2024-01-23 09:44:15 - Stopping timshomepage.exe
+2024-01-23 09:44:15 - ProcessKill 8232
+2024-01-23 09:44:15 - Found child process: 8552 Name: conhost.exe
+2024-01-23 09:44:15 - Found child process: 9336 Name: node.exe
+2024-01-23 09:44:15 - Stopping process 8552
+2024-01-23 09:44:15 - Send SIGINT 8552
+2024-01-23 09:44:15 - SIGINT to 8552 failed - Killing as fallback
+2024-01-23 09:44:15 - Stopping process 9336
+2024-01-23 09:44:15 - Send SIGINT 9336
+2024-01-23 09:44:15 - SIGINT to 9336 failed - Killing as fallback
+2024-01-23 09:44:15 - Stopping process 8232
+2024-01-23 09:44:15 - Send SIGINT 8232
+2024-01-23 09:44:15 - SIGINT to 8232 failed - Killing as fallback
+2024-01-23 09:44:15 - Finished timshomepage.exe
+2024-01-23 09:44:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-23 09:44:19 - Started 9720
+2024-01-23 09:46:24 - Stopping timshomepage.exe
+2024-01-23 09:46:24 - ProcessKill 9720
+2024-01-23 09:46:24 - Found child process: 5912 Name: conhost.exe
+2024-01-23 09:46:24 - Found child process: 19416 Name: node.exe
+2024-01-23 09:46:24 - Stopping process 5912
+2024-01-23 09:46:24 - Send SIGINT 5912
+2024-01-23 09:46:24 - SIGINT to 5912 failed - Killing as fallback
+2024-01-23 09:46:24 - Stopping process 19416
+2024-01-23 09:46:24 - Send SIGINT 19416
+2024-01-23 09:46:24 - SIGINT to 19416 failed - Killing as fallback
+2024-01-23 09:46:24 - Stopping process 9720
+2024-01-23 09:46:24 - Send SIGINT 9720
+2024-01-23 09:46:24 - SIGINT to 9720 failed - Killing as fallback
+2024-01-23 09:46:24 - Finished timshomepage.exe
+2024-01-23 09:47:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-23 09:47:07 - Started 12292
+2024-01-25 07:58:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-25 07:58:23 - Started 7188
+2024-01-29 08:24:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-29 08:24:22 - Started 8040
+2024-01-29 16:02:44 - Stopping timshomepage.exe
+2024-01-29 16:02:44 - ProcessKill 8040
+2024-01-29 16:02:44 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-30 07:49:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-30 07:49:36 - Started 7700
+2024-01-30 15:29:51 - Stopping timshomepage.exe
+2024-01-30 15:29:51 - ProcessKill 7700
+2024-01-30 15:29:52 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-01-30 15:30:46 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-01-30 15:30:46 - Started 7624
+2024-01-31 16:00:44 - Stopping timshomepage.exe
+2024-01-31 16:00:44 - ProcessKill 7624
+2024-01-31 16:00:44 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-02-01 08:10:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-02-01 08:10:40 - Started 7924
+2024-02-01 14:15:07 - Stopping timshomepage.exe
+2024-02-01 14:15:07 - ProcessKill 7924
+2024-02-01 14:15:07 - Found child process: 7968 Name: conhost.exe
+2024-02-01 14:15:07 - Found child process: 9004 Name: node.exe
+2024-02-01 14:15:07 - Stopping process 7968
+2024-02-01 14:15:07 - Send SIGINT 7968
+2024-02-01 14:15:07 - SIGINT to 7968 failed - Killing as fallback
+2024-02-01 14:15:07 - Stopping process 9004
+2024-02-01 14:15:07 - Send SIGINT 9004
+2024-02-01 14:15:07 - SIGINT to 9004 failed - Killing as fallback
+2024-02-01 14:15:07 - Stopping process 7924
+2024-02-01 14:15:07 - Send SIGINT 7924
+2024-02-01 14:15:07 - SIGINT to 7924 failed - Killing as fallback
+2024-02-01 14:15:07 - Finished timshomepage.exe
+2024-02-01 14:41:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\node_modules\node-windows\lib\wrapper.js --file C:\Users\tim.stanford\Documents\code\tim\chrome-homepage\server.js --scriptoptions= --log "Tims Home Page wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-02-01 14:41:05 - Started 8088
